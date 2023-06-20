@@ -1,0 +1,44 @@
+@media(max-width: 1150px) {
+.section2_frame{
+   width: 85%;
+}
+}
+   
+
+
+
+
+
+
+
+
+@media(max-width: 1024px) {
+    .section1 {
+        width: 94%;
+        flex-direction: column;
+    }
+
+    .section1_article {
+        width: 80%;
+        text-align: center;
+    }
+    .section1_img {
+        /* no reapet დავუწერე მგრამ მაინც აორმაგებს ბევრი ვეწვალე  */
+        margin-top: 68px;
+        width: 100%;
+        background-image: url(../img/tabletimg1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    .section2_frame{
+        flex-direction: column;
+    }
+  .section3_frame{
+    width: 94%;
+  }
+  .none{
+    display: none;
+    
+  }
+}
