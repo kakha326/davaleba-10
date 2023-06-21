@@ -3,14 +3,6 @@
    width: 85%;
 }
 }
-   
-
-
-
-
-
-
-
 
 @media(max-width: 1024px) {
     .section1 {
@@ -37,8 +29,10 @@
   .section3_frame{
     width: 94%;
   }
+ 
   .none{
     display: none;
     
   }
+
 }

@@ -1,0 +1,41 @@
+@media(max-width: 745px) {
+
+    .section1_article {
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .tablet_p {
+        display: block;
+        margin-top: 18px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .section1_img{
+        margin-top: 24px;
+    }
+    .section2_article{
+        width: 98%;
+        text-align: center;
+    }
+ 
+  
+    .section3_frame{
+        flex-direction: column;
+        
+    
+    }
+    .box1{
+        width: 90%;
+        text-align: center;
+    }
+    .box1_title{
+    margin-top: 40px;
+        justify-content: center;
+    }
+}

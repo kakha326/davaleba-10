@@ -1,0 +1,12 @@
+@media(max-width : 550px){
+  .header_ul{
+    display: none;
+  }  
+  .header_button{
+    display: none;
+  }
+  .fa-bars{
+    display: block;
+    font-size: 25px;
+  }
+}

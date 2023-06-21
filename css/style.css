@@ -89,7 +89,9 @@ h1 {
     background: #000000;
     border-radius: 32px;
 }
-
+.tablet_p{
+    display: none;
+}
 /* section2 */
 .section2 {
     width: 100%;
@@ -190,10 +192,6 @@ footer {
     padding: 96px 150px;
     max-width: 100%;
     background-color: black;
-
-}
-
-.footer_div {
     display: flex;
     justify-content: space-between;
 
@@ -212,7 +210,7 @@ footer {
 }
 
 .footer_list1 {
-    width: 12%;
+    width: 15%;
     /* border: 2px solid red; */
 }
 
@@ -226,7 +224,7 @@ footer {
     margin-bottom: 16px;
 }
 
-.footer_ul {
+.footer_list {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 14px;
