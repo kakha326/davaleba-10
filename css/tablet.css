@@ -1,38 +1,73 @@
-@media(max-width: 1150px) {
-.section2_frame{
+@media(max-width: 1350px) {
+  .section1 {
+    width: 94%;
+  }
+
+
+
+  /* @media(max-width: 1150px) {
+/* .section2_frame{
    width: 85%;
 }
-}
+} */
 
-@media(max-width: 1024px) {
+  @media(max-width: 1024px) {
     .section1 {
-        width: 94%;
-        flex-direction: column;
+      width: 94%;
+      flex-direction: column;
+      row-gap: 68px;
     }
 
     .section1_article {
-        width: 80%;
-        text-align: center;
+      width: 80%;
+      text-align: center;
     }
-    .section1_img {
-        /* no reapet დავუწერე მგრამ მაინც აორმაგებს ბევრი ვეწვალე  */
-        margin-top: 68px;
-        width: 100%;
-        background-image: url(../img/tabletimg1.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        
-    }
-    .section2_frame{
-        flex-direction: column;
-    }
-  .section3_frame{
-    width: 94%;
-  }
- 
-  .none{
-    display: none;
-    
-  }
 
-}
+    .section1_img {
+      width: 100%;
+      height: 450px;
+
+    }
+
+    .section2 {
+      padding: 32px 32px 64px 32px;
+      flex-direction: column;
+      row-gap: 64px;
+    }
+    .section2_img{
+      width: 100%;
+      height: 550px;
+      border-radius: 20px;
+    }
+    .section2_article{
+      width: 100%;
+    display: flex;
+    column-gap: 129px;
+    }
+
+    .section3_frame {
+      width: 94%;
+    }
+
+    footer {
+      flex-direction: column;
+      row-gap: 48px;
+    }
+  
+  
+    .none {
+      display: none;
+    }
+  
+  
+    .footer_links {
+      width: 100%;
+    }
+  
+  
+    .footer_list1 {
+      width: 50%;
+    }
+  
+
+  }

@@ -20,13 +20,16 @@
         margin-top: 24px;
     }
     .section2_article{
-        width: 98%;
+        flex-direction: column;
         text-align: center;
-    }
- 
+      }
+      .section2_img{
+        height: 428px;
+      }
   
     .section3_frame{
         flex-direction: column;
+       align-items: center;
         
     
     }

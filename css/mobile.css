@@ -1,3 +1,8 @@
+
+
+
+
+
 @media(max-width : 550px){
   .header_ul{
     display: none;
@@ -9,4 +14,12 @@
     display: block;
     font-size: 25px;
   }
+  footer {
+    padding: 30px 2%;
+    align-items: center;
+}
+.footer_list1 {
+    text-align: center;
+}
+
 }
